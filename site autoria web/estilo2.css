@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url('imagens/fundo2.png') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+#toggle-menu {
+    display: none;
+}
+
+.menu-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.menu {
+    position: fixed;
+    bottom: 20px;
+    left: -220px;
+    width: 200px;
+    background-color:#000022;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    transition: left 0.4s ease;
+    z-index: 99;
+}
+
+#toggle-menu:checked ~ .menu {
+    left: 80px;
+}
+
+.menu h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.menu button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    background-color: #45a049;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #45a049;
+}
+
+.avatar {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    box-shadow: none;
+}

@@ -1,0 +1,20 @@
+body {
+    background-color: #f0fff0;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .mensagem {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    max-width: 500px;
+  }
+  
+  .mensagem img {
+    width: 150px;
+    margin-top: 20px;
+  }

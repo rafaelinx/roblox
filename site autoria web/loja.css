@@ -1,0 +1,79 @@
+body {
+    background-color:#b9adad;
+    margin : 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f0fff0;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  
+  .formulario {
+    display: none;
+  }
+  
+  #abrir-form:checked ~ .formulario {
+    display: block;
+  }
+  
+  .caixa-form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #005fc1;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .btn-comprar {
+    background-color: #0084ff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .btn-comprar:hover {
+    background-color: #005fc1;
+  }
+

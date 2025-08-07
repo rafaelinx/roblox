@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Loja Roblox - Tabela</title>
+  <link rel="stylesheet" href="loja.css" />
+</head>
+<body>
+
+  <input type="checkbox" id="abrir-form" hidden />
+
+  <div class="loja">
+    <h2>🛍️ Loja Roblox </h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Imagem</th>
+          <th>Nome</th>
+          <th>Preço</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <body>
+        <tr>
+          <td><img src="imagens/item1.png" alt="Espada" /></td>
+          <td>Espada Roblox</td>
+          <td>200 Robux</td>
+          <td><label for="abrir-form" class="btn-comprar">Comprar</label></td>
+        </tr>
+        <tr>
+          <td><img src="imagens/item2.png" alt="Chapéu" /></td>
+          <td>Chapéu Estiloso</td>
+          <td>150 Robux</td>
+          <td><label for="abrir-form" class="btn-comprar">Comprar</label></td>
+        </tr>
+        <tr>
+          <td><img src="imagens/item3.png" alt="Asas" /></td>
+          <td>Asas de Dragão</td>
+          <td>300 Robux</td>
+          <td><label for="abrir-form" class="btn-comprar">Comprar</label></td>
+        </tr>
+      </body>
+    </table>
+  </div>
+
+  
+  <div class="formulario">
+    <div class="caixa-form">
+      <h3>📝 Formulário de Compra</h3>
+      <form action="agradecimento.html" method="get">
+        <label for="nome">Seu nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Forma de Pagamento</label><br>
+        <input type="radio" name="pagamento" value="Pix" required> Pix
+        <input type="radio" name="pagamento" value="Cartão"> Cartão<br><br>
+
+        <input type="submit" value="Enviar Pedido">
+      </form>
+    </div>
+  </div>
+  <form action="index.html">
+    <button type="submit">voltar</button>
+</form>
+
+
+</body>
+</html>
